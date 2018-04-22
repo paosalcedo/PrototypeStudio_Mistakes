@@ -11,4 +11,12 @@ public class PrefabDB : ScriptableObject
     {
         get { return _levels; }
     }
+
+    [SerializeField]private GameObject _player;
+
+    public GameObject Player 
+    {
+        get { return _player; }
+    }
+    
 }

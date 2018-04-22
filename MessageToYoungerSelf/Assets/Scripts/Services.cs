@@ -7,6 +7,5 @@ public class Services
 {
     public static SceneManager<TransitionData> Scenes;
     public static PrefabDB Prefabs;
-    public static EnemyManager EnemyManager;
-
+ 
 }
